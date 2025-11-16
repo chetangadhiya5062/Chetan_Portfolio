@@ -1,0 +1,35 @@
+/* Tailwind base styles - keep this file as your main CSS that imports Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: define CSS custom properties that mirror your design tokens */
+:root {
+  --color-primary: #1A73E8;
+  --color-secondary: #0D1B2A;
+  --color-accent: #00A8A8;
+  --color-background: #F8FAFC;
+  --color-text-primary: #1F2937;
+
+  --font-heading: "Poppins", "Montserrat", sans-serif;
+  --font-body: "Inter", "Lato", sans-serif;
+}
+
+/* Basic global styles */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Example utility-friendly class fallbacks (optional) */
+.heading {
+  font-family: var(--font-heading);
+}
