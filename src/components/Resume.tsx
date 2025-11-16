@@ -1,7 +1,6 @@
-
 import React from 'react';
 import Section from './Section';
-import { BriefcaseIcon, AcademicCapIcon, CodeIcon, UsersIcon, SparklesIcon, PuzzleIcon, LanguageIcon, StarIcon } from './Icons';
+import { AcademicCapIcon, CodeIcon, UsersIcon, SparklesIcon, PuzzleIcon, LanguageIcon, StarIcon } from './Icons';
 
 const ResumeSection: React.FC<{ title: string; icon: React.ReactNode; children: React.ReactNode }> = ({ title, icon, children }) => (
     <div className="bg-white dark:bg-text-primary p-6 rounded-2xl shadow-soft mb-8">
