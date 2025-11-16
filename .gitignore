@@ -51,7 +51,6 @@ __pycache__/
 # pnpm-lock.yaml
 
 # Generated PDFs / Media you don't want in repo
-*.pdf
 *.jpg
 *.jpeg
 *.png
